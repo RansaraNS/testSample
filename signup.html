@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Plus Registration</title>
+    <link rel="stylesheet" href="styles\signup.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="tabs">
+            <button class="tab-btn" id="dev-tab">Register as a developer</button>
+            <button class="tab-btn active" id="user-tab">Register as a user</button>
+        </div>
+        <div class="register-box">
+            <h2>CREATE AN APP PLUS ACCOUNT</h2>
+            <form action="signupindex.php"  method="POST" id="register-form">
+                <div class="input-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="fullname" placeholder="e.g. Name" required>
+                </div>
+                <div class="input-group">
+                    <label for="user-name">User Name</label>
+                    <input type="text" id="user-name" name="username" placeholder="e.g. UserName" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="mail@example.com" required>
+                </div>
+                <div class="input-group">
+                    <label for ="roleselec"> Roll selection </label>
+                    <select name="Role">
+                        <option>Developer</option>
+                        <option>User</option>
+                    </select>
+                <div class="input-group">
+                    <label for="password">Create password</label>
+                    <input type="password" id="password" name="Password" placeholder="Minimum of 8 characters" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirmpassword" placeholder="Minimum of 8 characters" required>
+                </div>
+                <div class="input-group checkbox">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">Accept Terms & Conditions</label>
+                </div>
+                <button type="submit" class="register-btn" id ="">Sign Up</button>
+                <div class="login-link">
+                    <p>Already have an account? <a href="login.html">login</a></p>
+                </div>
+            </form>
+          
+        </div>
+    </div>
+    <script src="js\signup.js"></script>
+</body>
+</html>

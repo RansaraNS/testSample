@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> APP PLUS Loging </title>
+    <link rel="stylesheet" href="styles\loging.css">
+</head>
+<body>
+    <div class ="Login-content">
+        <h1>Welcome to APP PLUS</h1>
+	<h3>Welcome to APP PLUS</h3>
+        <br>
+        <br>
+        <div class ="loging-box">
+            <h2>Login</h2>
+            <br>
+            <div class = "select-role">
+                <label>
+                    <input type = "radio" name="role" value="Developer">  As a Developer
+                </label>
+                 <label>
+                    <input type = "radio" name="role" value="User">  As a User
+                </label>
+                <label>
+                    <input type = "radio" name="role" value="Admin">  As a Admin
+                </label>
+            </div>
+            <br>
+            <form>
+                <div class ="input-details">
+                    <label>User Name</label>
+                   
+                    <input type ="text" id="Username" name= "Name" placeholder ="e.g. Name" required>
+                </div>
+                <br>
+                <div class ="input-details">
+                    <label>User Password</label>
+                  
+                    <input type ="password" id="password"  name= "Password" placeholder ="Minimum of 8 characters" required>
+                </div>
+                <br>
+                <div class = "links">
+                    <a href="#">Forgot Password ?</a>
+                    <br>
+                    <label class="one">Do not have an account?</lable>
+                    <a href ="#">  Creat account</a>
+                </div>
+                <br>
+
+                <button type ="submit" class="loging-botton">LOG IN</button>
+
+        
+            </form>
+        </div>
+    </div>
+    <script src ="js\loging.js"></script>
+</body>
+</html>

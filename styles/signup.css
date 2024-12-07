@@ -1,0 +1,108 @@
+/* Reuse the styles from the login page */
+body {
+	background-image: url(../images/signup.jpg);
+	background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.register-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab-btn.active {
+    background-color: #000080;
+    color: #fff;
+}
+
+.register-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+}
+
+
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #000080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.register-btn:hover {
+    background-color: #0000b3;
+}
+
+.login-link {
+    font-size: 12px;
+}
+
+.login-link a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+

@@ -1,0 +1,95 @@
+body {
+
+    background-image: url(../images/login.jpg);
+    background-size: cover;
+    
+    background-position: center;
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.Login-content {
+    text-align: center;
+    margin: 20px;
+}
+
+.loging-box {
+    background-color: rgba(179, 214, 114, 0.418);
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 65px;
+}
+
+.one{
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20x;
+    margin-bottom: 15px;
+}
+
+.select-role {
+    margin-bottom: 15px;
+}
+
+.select-role label {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.select-role {
+    margin-bottom: 15px;
+}
+
+.select-role label {
+    font-weight: 400;
+}
+
+.input-details input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.links a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.loging-botton {
+    width: 100%;
+    padding: 10px;
+    background-color: #2008a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.loging-botton:hover {
+    background-color: #12c1ec;
+}
+
