@@ -1,1 +1,2 @@
-Sample Read me file for upload to Git
+#sample project
+HTML, CSS, PHP used.
